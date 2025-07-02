@@ -1,5 +1,5 @@
 // Creacion de colecciones con $jsonSchema 
-
+use("parking")
 // parqueos
 
 db.createColletion("parqueos",{

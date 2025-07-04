@@ -152,7 +152,7 @@ db.createUser({
 
 
  //Probar los Permisos
- 
+
 //Probar como Administrador
 javascript// Conectar como administrador
 db.auth("admin_campus", "admin123")
@@ -299,7 +299,7 @@ db.grantRolesToUser("empleado_bogota", [
 
 // Error: Rol no existe
 // Solución: Crear el rol primero
-db.createRole({...})
+db.createRole({})
 
 // Error: Permisos insuficientes
 // Solución: Verificar los privileges del rol
